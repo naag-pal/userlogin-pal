@@ -1,0 +1,19 @@
+<div class="members-list">
+<h2>Members List</h2>  
+<div class="row">
+<div class="col-sm-9 col-sm-offset-2">
+<div class="row">
+<div class="head col-sm-3">Name</div>
+<div class="head col-sm-3">Email</div>
+<div class="head col-sm-3">Username</div> 
+</div>
+{{#each users}}
+<div class="row">
+   <div class="member col-sm-3"> {{this.name}} </div>
+   <div class="member col-sm-3"> {{this.email}} </div>
+   <div class="member col-sm-3"> {{this.username}} </div> 
+</div>
+{{/each}} 
+</div>
+</div>
+</div>
